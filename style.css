@@ -137,16 +137,12 @@ transform: scale(1.05);}
     bottom: -80px;
      }
 
+   .FormArticle{display: flex; flex-wrap: wrap;width: 45%; height: 100%; align-items: center;  justify-content: center ;color: white;background-color: rgba(0, 0, 0, 0.829); border: rgb(165, 206, 17) solid 3px;text-align: center;color: white(255, 0, 0);font-size: 20px;transition: linear 0.3s ;}
+   .FormArticle:hover{  background-color: rgba(85, 107, 252, 0.801);; color: black; transform: scale(1.05); text-decoration: wavy;}
   
 
-
-#Formsection{display: flex;}
-     #FormArticle{width: 100%; color: white;    background-color: rgba(0, 0, 0, 0.829);text-align: center;color: white(255, 0, 0);font-size: 20px; transition: linear 0.3s ; justify-content: center; align-content: center;}
-     #FormArticle:hover{ background-color: rgba(85, 107, 252, 0.801); color: black; transform: scale(1.01); text-decoration: wavy;}
-     #FormArticle h1{color: rgb(255, 253, 244);}
-     #FormArticle:hover h1{color: goldenrod;}
-     #FormArticle h6 {font-size: 140%; text-decoration: underline;}
-label,input {align-content: center;align-content: center;}
+   .FormArticle h1{color: rgb(255, 253, 244);}
+   .FormArticle:hover h1{color: goldenrod;}
 
 #footerNav ul{display: flex;
     flex-wrap: wrap;
