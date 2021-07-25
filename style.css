@@ -172,17 +172,19 @@ background-color: rgb(156, 167, 250);}
     #mediaqueriid  {width:40%;}
     .Eventimage1,.Eventimage2 {width: 98%;}
     #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
-    .HotelInfobottom,.image1fade{width: 10%;}
+    .HotelInfobottom .image1fade{width: 38%;}
 }
 
 
 @media screen and (max-width: 769px){
    
-    #mediaqueriid  {width:50%;}
+    #mediaqueriid  {width:90%;}
     .container-fluid {position: relative;}
     #topText  {width:100%;}
  #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
  .Eventimage1,.Eventimage2 {width: 95%;}
+ .photosAndContact{width: 100%;}
+ .HotelInfobottom .image1fade{width:85%;}
  .navbar-brand{position:relative;}
 }
 
@@ -194,6 +196,8 @@ background-color: rgb(156, 167, 250);}
     #topText  {width:100%;}
  #topnav li {width: 10%; background-color: rgb(156, 167, 250);}
  .Eventimage1,.Eventimage2 {width: 93%;}
+ .photosAndContact{width: 100%;}
+ .HotelInfobottom .image1fade{width:85%;}
  .navbar-brand{position:relative;}
  
 }
@@ -205,6 +209,8 @@ background-color: rgb(156, 167, 250);}
     #topText  {width:100%;}
  #topnav li {width: 10%; background-color: rgb(156, 167, 250);}
  .Eventimage1,.Eventimage2 {width: 95%;}
+ .photosAndContact{width: 100%;}
+ .HotelInfobottom .image1fade{width:85%;}
  .navbar-brand{position:relative;}
  
 }
@@ -215,7 +221,10 @@ background-color: rgb(156, 167, 250);}
     .container-fluid {position: relative;}
     #topText  {width:100%;}
  #topnav li {width: 10%; background-color: rgb(156, 167, 250);}
+ 
  .Eventimage1,.Eventimage2 {width: 95%;}
+ .photosAndContact{width: 100%;}
+ .HotelInfobottom .image1fade{width:85%;}
  .navbar-brand{position:relative;}
  
 }
