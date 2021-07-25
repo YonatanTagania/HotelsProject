@@ -1,5 +1,5 @@
 /* תמונת רקע */
-body{background-image: url(./images/Eilat.jpg); background-size: contain; background-repeat: repeat;
+body{background-image: url(./images/Eilat.jpg); background-size: cover; background-repeat: no-repeat repeat;
 } 
 #mediaquerieditdiv{width: 1500px;}
 /* רקע לנאב באר, רספונסיביות, ויישור לתמונת לוגו בהתאם למיקום */

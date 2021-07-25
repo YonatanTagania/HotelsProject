@@ -3,8 +3,8 @@ body{background-image: url(./images/Eilat.jpg); background-size: contain; backgr
 } 
 /* רקע לנאב באר, רספונסיביות, ויישור לתמונת לוגו בהתאם למיקום */
 .container-fluid {background-color:rgb(156, 167, 250); position: fixed; height: 10%;top: -2px; z-index: 1;}
-.nav-link{font-weight: bold; font-size: 20px;  transition: linear 0.3s ;}
-#TH {width: 80px; height: 80px; animation-name: Logospin ;animation-duration: 3s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-direction: alternate;}
+.nav-link{font-weight: bold; font-size: 20px;}
+#TH {width: 80px; height: 80px;animation-duration: 8s; animation-timing-function: ease-in-out; animation-direction: alternate;  transition: linear 2.5s ;}
 #TH:hover{transform: rotateX(360deg);}
 
 
@@ -46,13 +46,13 @@ body{background-image: url(./images/Eilat.jpg); background-size: contain; backgr
 .HotelInfotop p{color: rgb(252, 0, 0); font-weight: bolder; text-align: center;}
 
 .HotelInfotop:hover{  background-color:rgba(2, 5, 24, 0.801); color: white;
-    transform: scale(1.05);}
+    transform: scale(1.01);}
 
 .HotelInfotop h1, .HotelInfotop div{text-align: center;}
 .HotelInfotop h1{color: blue;  text-decoration: underline;}
 
-.photosAndContact a{text-decoration: none; color: green; font-weight: bolder;}
-.photosAndContact a:hover{text-decoration: underline; transition: linear 0.3s ;}
+.photosAndContact a{text-decoration: none; color: green; font-weight: bolder; transition: linear 0.3s ;}
+.photosAndContact a:hover{text-decoration: underline;}
 
 
 .prices{text-decoration: underline; font-weight: bolder; font-size: 120%; color: rgb(0, 192, 0);}
@@ -92,8 +92,8 @@ body{background-image: url(./images/Eilat.jpg); background-size: contain; backgr
 .StaffInfo p {color: rgb(133, 131, 233);}
 
 
-#Formdiv{width: 80%; height: 50%; justify-content: center; left: 15px      ;color: white;    background-color: rgba(0, 0, 0, 0.829); margin: 25px;text-align: center;color: white(255, 0, 0);font-size: 20px;}
-#Formdiv:hover{ background-color: rgba(85, 107, 252, 0.801); color: black; transform: scale(1.05); text-decoration: wavy;transition: linear 0.3s ;}
+#Formdiv{width: 96%; height: 50%;color: white;    background-color: rgba(0, 0, 0, 0.829); margin: 25px;text-align: center;color: white(255, 0, 0);font-size: 20px; transition: linear 0.3s ; justify-content: center; align-content: center;}
+#Formdiv:hover{ background-color: rgba(85, 107, 252, 0.801); color: black; transform: scale(1.01); text-decoration: wavy;}
 #Formdiv h1{color: rgb(255, 253, 244);}
 #Formdiv:hover h1{color: goldenrod;}
 #Formdiv h6 {font-size: 140%; text-decoration: underline;}
@@ -151,7 +151,7 @@ top: 50px;}
    
     .HotelInfotop  {width:33%;}
     #Formdiv{width: 90%;}
-    #SignupForm input{width: 40%;}
+    
     .container-fluid {position: relative;}
     #topText  {width:100%;}
  #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
@@ -163,7 +163,7 @@ top: 50px;}
    
     .HotelInfotop  {width:49%;}
     #Formdiv {width: 80%;}
-    #SignupForm input{width: 40%;}
+    
     .container-fluid {position: relative;}
     #topText  {width:100%;}
  #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
@@ -177,7 +177,7 @@ top: 50px;}
    
     .HotelInfotop  {width:49%;}
     #Formdiv {width: 80%;}
-    #SignupForm input{width: 40%;}
+    
     .container-fluid {position: relative;}
     #topText  {width:100%;}
  #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
@@ -190,7 +190,7 @@ top: 50px;}
    
     .HotelInfotop  {width:49%;}
     #Formdiv{width: 50%;}
-    #SignupForm input{width: 40%;}
+    
     .container-fluid {position: relative;}
     #topText  {width:100%;}
  #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
