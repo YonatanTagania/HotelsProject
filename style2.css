@@ -1,0 +1,221 @@
+/* תמונת רקע */
+body{background-image: url(./images/Eilat.jpg); background-size: contain; background-repeat: repeat;
+} 
+/* רקע לנאב באר, רספונסיביות, ויישור לתמונת לוגו בהתאם למיקום */
+.container-fluid {background-color:rgb(156, 167, 250); position: fixed; height: 10%;top: -2px; z-index: 1;}
+.nav-link{font-weight: bold; font-size: 20px;  transition: linear 0.3s ;}
+#TH {width: 80px; height: 80px; animation-name: Logospin ;animation-duration: 3s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-direction: alternate;}
+#TH:hover{transform: rotateX(360deg);}
+
+
+
+.nav-link:hover{ font-weight: bolder; text-decoration: underline; font-size: 25px; transform: scale(1.2); background-color: rgb(156, 167, 250);}
+
+
+#OpeningSection{display: flex;
+
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    position: relative; 
+    
+   
+   }
+
+.NewSiteSection {width: 98.5%;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.829);
+    text-align: center;
+    margin-bottom: 5px;
+    display: absolute;
+    top:-180px;
+    }
+
+    
+.NewSiteSection:hover{background-color: rgba(2, 5, 24, 0.801);transition: linear 0.3s ;}
+
+
+#HotelFirstHeader{text-align: center;color: brown; }
+
+
+.HotelInfotop{width: 25%; height: 1%; align-items: center;  justify-content: center ;color: white;    background-color: rgba(0, 0, 0, 0.829); border: rgb(165, 206, 17) solid 3px; margin: 15px; transition: linear 0.3s ;}
+.HotelInfotop div{position: relative;}
+.HotelInfotop p{color: rgb(252, 0, 0); font-weight: bolder; text-align: center;}
+
+.HotelInfotop:hover{  background-color:rgba(2, 5, 24, 0.801); color: white;
+    transform: scale(1.05);}
+
+.HotelInfotop h1, .HotelInfotop div{text-align: center;}
+.HotelInfotop h1{color: blue;  text-decoration: underline;}
+
+.photosAndContact a{text-decoration: none; color: green; font-weight: bolder;}
+.photosAndContact a:hover{text-decoration: underline; transition: linear 0.3s ;}
+
+
+.prices{text-decoration: underline; font-weight: bolder; font-size: 120%; color: rgb(0, 192, 0);}
+.PhoneNumbers{text-decoration: underline; color: white;}
+.HotelImages{width: 300px;height: 150px;}
+
+.image1fade,.image2fade{width: 300px; height: 150px;}
+.image1fade{position: absolute;
+    animation-name: fadingphotos;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+   }
+
+
+@keyframes fadingphotos {
+    from {filter: opacity(1); 
+    
+  }
+  to {filter: opacity(0);
+  
+  }
+}
+@keyframes fadingphotos2 {
+    from {transform: scale(0.9);  
+    
+  }
+  to {transform: scale(1);
+  
+  }
+}
+
+.Whiteh5{color: rgb(255, 0, 0); text-align: center; text-decoration: underline;}
+.StaffImages{width: 350px; height: 200px; border-radius: 50%;}
+
+.StaffInfo p {color: rgb(133, 131, 233);}
+
+
+#Formdiv{width: 80%; height: 50%; justify-content: center; left: 15px      ;color: white;    background-color: rgba(0, 0, 0, 0.829); margin: 25px;text-align: center;color: white(255, 0, 0);font-size: 20px;}
+#Formdiv:hover{ background-color: rgba(85, 107, 252, 0.801); color: black; transform: scale(1.05); text-decoration: wavy;transition: linear 0.3s ;}
+#Formdiv h1{color: rgb(255, 253, 244);}
+#Formdiv:hover h1{color: goldenrod;}
+#Formdiv h6 {font-size: 140%; text-decoration: underline;}
+
+
+#footerNav ul{display: flex;
+    flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+background-color: rgb(156, 167, 250);
+position: relative;
+top: 50px;}
+#footerNav  li { font-weight: bold; text-decoration: underline; font-size: 120%; }
+#backToTop{flex-basis: 20%; ;}
+#Number{flex-basis: 20%;}
+#Email{flex-basis: 30%;}
+#Credits{flex-basis: 25%;}
+
+
+
+
+@media screen and (max-width: 1440px){
+   
+    .HotelInfotop  {width:30%;}
+   
+    
+    
+  
+}
+
+
+@media screen and (max-width: 1025px){
+   
+    .HotelInfotop  {width:30%;}
+    #Formdiv{width: 80%;}
+    
+    .image1fade,.image2fade,.StaffImages,iframe,.HotelImages{width: 98%;}
+  
+}
+
+
+@media screen and (max-width: 900px){
+   
+    .HotelInfotop  {width:45%;}
+    #Formdiv{width: 80%;}
+    .container-fluid {position: relative;}
+    #topText  {width:100%;}
+ #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
+ .image1fade,.image2fade,.StaffImages,iframe,.HotelImages{width: 95%;}
+ .navbar-brand{position:relative;}
+ 
+}
+
+@media screen and (max-width: 769px){
+   
+    .HotelInfotop  {width:33%;}
+    #Formdiv{width: 90%;}
+    #SignupForm input{width: 40%;}
+    .container-fluid {position: relative;}
+    #topText  {width:100%;}
+ #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
+ .image1fade,.image2fade,.StaffImages,iframe,.HotelImages{width: 95%;}
+ .navbar-brand{position:relative;}
+}
+
+@media screen and (max-width: 580px){
+   
+    .HotelInfotop  {width:49%;}
+    #Formdiv {width: 80%;}
+    #SignupForm input{width: 40%;}
+    .container-fluid {position: relative;}
+    #topText  {width:100%;}
+ #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
+ .image1fade,.image2fade,.StaffImages,iframe,.HotelImages{width: 93%;}
+ .navbar-brand{position:relative;}
+ 
+}
+
+
+@media screen and (max-width: 486px){
+   
+    .HotelInfotop  {width:49%;}
+    #Formdiv {width: 80%;}
+    #SignupForm input{width: 40%;}
+    .container-fluid {position: relative;}
+    #topText  {width:100%;}
+ #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
+ .image1fade,.image2fade,.StaffImages,iframe,.HotelImages{width: 93%;}
+ .navbar-brand{position:relative;}
+ 
+}
+
+@media screen and (max-width: 376px){
+   
+    .HotelInfotop  {width:49%;}
+    #Formdiv{width: 50%;}
+    #SignupForm input{width: 40%;}
+    .container-fluid {position: relative;}
+    #topText  {width:100%;}
+ #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
+ .image1fade,.image2fade,.StaffImages,iframe,.HotelImages{width: 95%;}
+ .navbar-brand{position:relative;}
+ 
+}
+
+@media screen and (max-width: 321px){
+   
+    .HotelInfotop  {width:49%;}
+    #Formdiv{width: 70%;}
+    #SignupForm input{width: 100%;}
+    .container-fluid {position: relative;}
+    #topText  {width:100%;}
+ #topnav li {width: 100%; background-color: rgb(156, 167, 250);}
+ .image1fade,.image2fade,.StaffImages,iframe,.HotelImages{width: 95%;}
+ .navbar-brand{position:relative;}
+ 
+}
+#TelAvivPage {width: 80%;}
+#AshdodPage  {width: 80%;}
+#EilatPage  {width: 80%;}
+#HaifaPage {width: 80%;}
+#NatanyaPage {width: 80%;}
+
+
+#SignupForm  {width:80%;}
